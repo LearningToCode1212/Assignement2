@@ -4,8 +4,8 @@
     {
         static void Main(string[] args)
         {
-            string value = ConvertToText.convert(12);
-            Console.WriteLine(value);
+            int value = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(ConvertToText.convert(value));
         }
     }
 }
